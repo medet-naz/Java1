@@ -7,14 +7,15 @@
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* [Ключ 2fb98b44-93e7-3bdd-a2ad-79347bfe4ad1 в списке не валидных ключей валидный](https://github.com/medet-naz/Java1/issues/2) 
-* [Ключ 80b427f8-92cd-3aae-ba04-3927fbe17c6 в списке валидных ключей не валидный](https://github.com/medet-naz/Java1/issues/1)
-
+* [При запуске KeyValidator, один из ключей в списке валидных оказался не рабочим](https://github.com/medet-naz/Java1/issues/3)
+* [Валидный ключ был включен в список невалидных](https://github.com/medet-naz/Java1/issues/2)
+* [Не рабочий ключ в списке валидных](https://github.com/medet-naz/Java1/issues/1)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
-* Баг репорты 
+* Приложение [KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class)
+* Ключи 
 
 В качестве тестовых данных использовались данные [Руководство использования](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md):
 * 8f05e6a7-70e9-33d7-bfe7-b19eae0d8998 - OK
