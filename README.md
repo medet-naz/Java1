@@ -7,9 +7,9 @@
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты:
-* [При запуске KeyValidator, один из ключей в списке валидных оказался не рабочим](https://github.com/medet-naz/Java1/issues/3)
+* [Не валидный ключ в списке валидных](https://github.com/medet-naz/Java1/issues/3)
 * [Валидный ключ был включен в список невалидных](https://github.com/medet-naz/Java1/issues/2)
-* [Не рабочий ключ в списке валидных](https://github.com/medet-naz/Java1/issues/1)
+* [Недостаточное количество символов в ключе](https://github.com/medet-naz/Java1/issues/1)
 
 ## Описание процесса тестирования
 
